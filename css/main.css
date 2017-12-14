@@ -5,4 +5,48 @@
 
 .header{
 	padding:10px 20px;
+	color:#fff;
+	position:fixed;
+	top:0;
+	z-index:999;
+}
+
+.header a{
+	color:#fff;
+}
+
+.header + div{
+	margin-top: 52px;
+}
+
+.site-map{
+	font-size: 0.9em;
+	color:gray;
+	text-align:left;
+}
+.dashboard-links{
+	padding: 0;
+    height: calc(100vh - 52px);
+    position: sticky;
+    top: 52px;
+}
+.dashboard-links li{
+	background:transparent;
+	border-bottom:1px solid #ffffff20;
+}
+.dashboard-links a{
+	color:#ffffffdd;
+}
+.main-detail{
+	background:#f3f3f3;
+}
+form, .table-detail{
+	background:white;
+	box-shadow: 0px 0px 20px 2px #ddd;
+	padding: 20px ;
+}
+
+.form-check{
+	display:inline-block;
+	padding:0 0.375rem;
 }
